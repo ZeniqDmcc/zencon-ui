@@ -1,0 +1,84 @@
+.nft {
+    background-image: url("../../assets/Svgs/graph6.svg");
+    background-repeat: no-repeat;
+    background-position-x: -80px;
+    background-position-y:  -220px;
+    background-size: calc(42% + 130px);
+}
+
+@media only screen and (min-width: 2200px) {
+    .nft {
+      background: none;
+    }
+    .image {
+        background-image: url("../../assets/Svgs/graph6.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 700px;
+    }
+}
+
+@media only screen and (max-width: 1780px) {
+    .nft {
+        background-position-y:  -190px;
+    }
+}
+
+@media only screen and (max-width: 1680px) {
+    .nft {
+        background-position-y:  -190px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .nft {
+        background-position-y:  -150px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .nft {
+        background-position-y:  -100px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .nft {
+        background-position-y:  -80px;
+    }
+    .nft img {
+        padding: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nft {
+        background-position: top center;
+        background-size: calc(50% + 130px);
+        padding: 30px 30px 0 30px;
+        margin-top: -100px;
+    }
+    .nft img {
+        width: 70% !important;
+        padding: 100px 0 0 0 !important;
+    }
+    .nft div div {
+        gap: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nft {
+        background-position: top center;
+        background-size: calc(50% + 130px);
+        padding: 30px 30px 0 30px;
+        margin-top: -70px;
+    }
+    .nft img {
+        width: 60% !important;
+        padding-top: 35px !important;
+    }
+    .nft div div {
+        gap: 12px;
+    }
+}

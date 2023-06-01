@@ -1,0 +1,13 @@
+.card-hover {
+  background-color: #00B3A9;
+  color: #00B3A9;
+  margin: 20px;
+  transform: perspective(1px) translateZ(0);
+}
+
+video {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/*# sourceMappingURL=ProjectCard.css.map */

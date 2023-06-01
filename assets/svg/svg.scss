@@ -1,0 +1,15 @@
+.astronaut-container {
+  transform: translate(10vw, 150px);
+  z-index: -1;
+  @media (max-width: 1200px) {
+    transform: translate(0, 70px);
+  }
+  object {
+    will-change: all;
+    width: 2000px;
+    z-index: 1;
+    @media (max-width: 1200px) {
+      width: 1500px;
+    }
+  }
+}

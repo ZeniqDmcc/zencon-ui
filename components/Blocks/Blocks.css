@@ -1,0 +1,88 @@
+.block-container {
+  position: relative;
+  min-height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.block-container .block {
+  cursor: pointer;
+  height: 200px;
+  width: 70%;
+  transition: animation 2s ease-in-out, border 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  will-change: animation, transform;
+  margin-bottom: 25px;
+  border: 5px solid white;
+  background: white;
+}
+.block-container .block:hover {
+  border-right: 10px solid white;
+  border-bottom: 10px solid white;
+}
+.block-container .block .block-text {
+  transition: animation 2s ease-in-out, border 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  background: #111827;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+@media (max-width: 800px) {
+  .block-container .block .block-text {
+    padding: 20px;
+  }
+}
+.block-container .block .block-text .labels {
+  margin-left: 15%;
+}
+@media (max-width: 800px) {
+  .block-container .block .block-text .labels {
+    display: none;
+  }
+}
+
+.fadein-container {
+  transform: translate(5vw, -225px);
+  opacity: 0;
+  animation: fadeIn 1.6s 1.8s forwards;
+}
+
+.slideup-container {
+  animation: slideUp 1s 0.5s forwards;
+}
+
+.fadeout-container {
+  animation: fadeOut 0.8s forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-225px);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(5vw, -225px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, -225px);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-5vw);
+  }
+}
+
+/*# sourceMappingURL=Blocks.css.map */

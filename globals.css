@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'hanson';
+  src: url('./assets/fonts/Hanson-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'heronSans';
+  src: url('./assets/fonts/Font Bureau - HeronSans Bold.otf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'heronSans';
+  src: url('./assets/fonts/Font Bureau - HeronSans Light.otf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'heronSans';
+  src: url('./assets/fonts/Font Bureau - HeronSans Medium.otf') format('truetype');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'heronSans';
+  src: url('./assets/fonts/Font Bureau - HeronSans Regular.otf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'heronSans';
+  src: url('./assets/fonts/Font Bureau - HeronSans SemiBold.otf') format('truetype');
+  font-weight: semibold;
+}
+
+/* Herosancond */
+
+@font-face {
+  font-family: 'herosanscond';
+  src: url('./assets/fonts/Font Bureau - HeronSansCond Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'herosanscond';
+  src: url('./assets/fonts/Font Bureau - HeronSansCond Medium.otf') format('opentype');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'herosanscond';
+  src: url('./assets/fonts/Font Bureau - HeronSansCond Regular.otf') format('opentype');
+  font-weight: normal;
+} 
+
+@font-face {
+  font-family: 'herosanscond';
+  src: url('./assets/fonts/Font Bureau - HeronSansCond SemiBold.otf') format('opentype');
+  font-weight: semibold;
+}
+
+video{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#play-button{
+  position: absolute;
+  height: 80px;
+  cursor: pointer;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #010020;
+}
+
+@layer components {
+  .active {
+    @apply border-[1px] border-red-500;
+  }
+  .route-active {
+    @apply transition-all border-b-[4px] border-[#A1E285] text-[#A1E285];
+  }
+  .route-active-button {
+    @apply transition-all bg-[#f4a12f];
+  }
+  .normal_input {
+    @apply px-3 py-3 rounded-md border-[1px] border-black text-black outline-none placeholder-black text-sm;
+  }
+  p {
+    @apply font-normal text-[#E7EEFA];
+  }
+  .op1 {
+    @apply bg-[#00B3A9];
+  }
+  .op2 {
+    @apply bg-[#BD5E80];
+  }
+  .op3 {
+    @apply bg-[#E7A536];
+  }
+}
+
+.doc-card-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+#dropdown_select .Dropdown-control {
+  background: transparent !important;
+  color: #ffffff !important;
+  padding: 0.7rem 1rem !important;
+}
+
+#dropdown_select .Dropdown-arrow {
+  top: 1.1rem !important;
+}
+
+#dropdown_select .Dropdown-placeholder {
+  color: rgba(128, 128, 128, 0.705) !important;
+}
+
+.home__outer {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #010020;
+  isolation: isolate;
+  background-position: top center !important;
+  color: #fff;
+  background-repeat: no-repeat;
+}

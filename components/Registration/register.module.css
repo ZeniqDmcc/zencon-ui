@@ -1,0 +1,178 @@
+.form__container {
+    max-width: 1050px;
+}
+
+.formInner {
+    box-shadow: 2px 28px 11px 13px #F4F4F4;
+    padding: 50px;
+}
+
+.formInner form {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.half {
+    width: 48%;
+    padding-top: 40px;
+}
+
+.half input {
+    width: 100%;
+    height: 45px;
+    background-color: #00223C;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.half input:focus {
+    outline: 2px solid #A1E285;
+    background-color: #00223C !important;
+}
+
+.inputtextarea textarea {
+    height: 230px;
+    padding: 10px;
+    width: 100%;
+    background-color: #00223C;
+    border: 0 !important;
+    color: #fff;
+    outline: none;
+}
+
+.formInner form label {
+    padding-bottom: 7px;
+    color: #374151;
+}
+
+.formInner form label {
+    padding-bottom: 13px;
+    color: #374151;
+}
+
+.inputselect {
+    width: 48%;
+    padding-top: 20px;
+}
+
+.select {
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #00223C;
+    color: #fff;
+}
+
+.inputtextarea {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #E9E9ED;
+    gap: 8px;
+    padding-top: 50px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.block {
+    display: block;
+}
+
+.inputradio {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.radio {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #A1E285;
+    outline: none;
+    margin-right: 10px;
+}
+
+.radio:checked {
+    background-color: #A1E285;
+    border-color: #A1E285;
+}
+
+.formInner select {
+    height: 45px;
+    border-color: #A1E285;
+    width: 100%;
+    padding: 5px 10px;
+    color: #A1E285;
+}
+
+.inputButton {
+    background-color: #00223C;
+    padding: 10px 56px;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 30px;
+    border: 2px solid #A1E285;
+}
+
+.rlabel {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.phnum {
+    width: 49%;
+    padding: 0 10px;
+    max-height: 45px;
+    margin-top: 10px;
+}
+
+.mrleft {
+    margin-left: 30px;
+}
+
+.phnumber {
+    width: 33%;
+    border-radius: 0 0 0 0 !important;
+}
+
+.checkbox {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.checkbox:checked {
+    background-color: #A1E285 !important;
+  }
+  
+
+@media only screen and (max-width: 840px) {
+    .half {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .rlabel {
+        font-size: 16px;
+    }
+
+    .inputButton {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+

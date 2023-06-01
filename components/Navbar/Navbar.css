@@ -1,0 +1,22 @@
+#navbar {
+  position: relative;
+}
+#navbar .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 100px;
+}
+@media (max-width: 780px) {
+  #navbar .right {
+    gap: 0;
+  }
+}
+#navbar .right .navbar-image {
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+}
+
+/*# sourceMappingURL=Navbar.css.map */

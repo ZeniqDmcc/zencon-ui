@@ -1,0 +1,96 @@
+.scatter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+.scatter-container .relative-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.scatter-container .relative-container .moon {
+  will-change: transform;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: #111827;
+  box-shadow: 0 0 100px 30px #5d1d8f;
+  transition: transform 2s linear;
+}
+.scatter-container .relative-container .constellation {
+  will-change: transform;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: #111827;
+  box-shadow: 0 0 100px 30px #5d1d8f;
+  transition: transform 2s linear;
+}
+.scatter-container .relative-container .wishing-star {
+  opacity: 0;
+  --rotation: 20deg;
+  position: absolute;
+  top: 20%;
+  height: 3px;
+  width: 70px;
+  transform: rotate(var(--rotation));
+  background: #7e22ce;
+  box-shadow: 0 0 40px 10px #7e22ce;
+  animation: wishing-star 10s ease-in-out infinite;
+}
+.scatter-container .relative-container .wishing-star.one {
+  --rotation: 10deg;
+  top: 10%;
+  left: 30%;
+  animation-delay: 1s;
+}
+.scatter-container .relative-container .wishing-star.two {
+  --rotation: 20deg;
+  top: 10%;
+  right: 30%;
+  animation-delay: 4s;
+}
+.scatter-container .relative-container .wishing-star.three {
+  --rotation: -200deg;
+  top: 10%;
+  left: 10%;
+  animation-delay: 8s;
+}
+.scatter-container .relative-container .wishing-star.four {
+  --rotation: -10deg;
+  top: 40%;
+  left: 30%;
+  animation-delay: 3s;
+}
+.scatter-container .relative-container .wishing-star.five {
+  --rotation: -190deg;
+  top: 10%;
+  left: 80%;
+  animation-delay: 7s;
+}
+
+@keyframes wishing-star {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    transform: rotate(var(--rotation)) translateX(500px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(var(--rotation)) translateX(500px);
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=Scatter.css.map */

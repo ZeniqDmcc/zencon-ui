@@ -1,0 +1,142 @@
+/* .main {
+    background: url("/_next/static/media/slider2 Kopie.c3a46431.jpg") no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: center -8% !important;
+    color: #fff;
+    background-color: #010020;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.button__outer {
+  display: flex;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: normal;
+  color: #88FF4E;
+  line-height: 67px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+
+@media only screen and (min-width: 1580px) {
+  .container {
+    max-width: 1496px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+    h2 {
+      font-size: 26px !important;
+      max-width: 630px;
+    }
+    h1 {
+      font-size: 39px !important;
+    }
+    p {
+      font-size: 15px !important;
+    }
+    .common__outer {
+      padding: 80px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  .common__inner {
+      flex-direction: column;
+      gap: 30px;
+  }
+  .common__inner .box {
+    width: 100% !important;
+  }
+  .common__inner .box__1 {
+    order: 2;
+    gap: 25px;
+  }
+  .common__inner .box__2 {
+    order: 1;
+    gap: 25px;
+  }
+  h2 {
+    font-size: 28px !important;
+    max-width: 63%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .button__outer a {
+    padding: 6px 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    max-width: 83%;
+  }
+  .banner__inner .box {
+    gap: 28px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 21px !important;
+  }
+  h2 {
+    font-size: 19px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .button__outer {
+    align-items: flex-start;
+  }
+  .common__outer {
+    padding: 45px 0 !important;
+  }
+} */
+

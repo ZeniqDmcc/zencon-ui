@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.scene {
+  width: 200px;
+  height: 200px;
+  margin: 80px;
+  perspective: 400px;
+}
+
+.cube {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(100px);
+  transition: transform 1s;
+}
+
+.cube.show-front {
+  transform: translateZ(-100px) rotateY(0deg);
+}
+
+.cube.show-right {
+  transform: translateZ(-100px) rotateY(-90deg);
+}
+
+.cube.show-back {
+  transform: translateZ(-100px) rotateY(-180deg);
+}
+
+.cube.show-left {
+  transform: translateZ(-100px) rotateY(90deg);
+}
+
+.cube.show-top {
+  transform: translateZ(-100px) rotateX(-90deg);
+}
+
+.cube.show-bottom {
+  transform: translateZ(-100px) rotateX(90deg);
+}
+
+.cube__face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #5b1d8d;
+  line-height: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e9973a;
+  text-align: center;
+}
+
+.cube__face--front {
+  background: hsla(0deg, 100%, 50%, 0);
+}
+
+.cube__face--right {
+  background: hsla(60deg, 100%, 50%, 0);
+}
+
+.cube__face--back {
+  background: hsla(120deg, 100%, 50%, 0);
+}
+
+.cube__face--left {
+  background: hsla(180deg, 100%, 50%, 0);
+}
+
+.cube__face--top {
+  background: hsla(240deg, 100%, 50%, 0);
+}
+
+.cube__face--bottom {
+  background: hsla(300deg, 100%, 50%, 0);
+}
+
+.cube__face--front {
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.cube__face--right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.cube__face--back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.cube__face--left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.cube__face--top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.cube__face--bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+label {
+  margin-right: 10px;
+}
+
+sheet {
+  transform: rotateX(51deg) rotateZ(43deg);
+  transform-style: preserve-3d;
+  border-radius: 32px;
+  box-shadow: 1px 1px 0 1px #f9f9fb, -1px 0 28px 0 rgba(34, 33, 81, 0.01), 28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+  transition: 0.4s ease-in-out transform, 0.4s ease-in-out box-shadow;
+}
+sheet:hover {
+  transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(43deg);
+  box-shadow: 1px 1px 0 1px #f9f9fb, -1px 0 28px 0 rgba(34, 33, 81, 0.01), 54px 54px 28px -10px rgba(34, 33, 81, 0.15);
+}
+
+/*# sourceMappingURL=Cube.css.map */

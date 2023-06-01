@@ -1,0 +1,66 @@
+#blobs {
+  width: 100%;
+  height: 100%;
+}
+#blobs .blob-container {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+#blobs .blob-container object {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  animation: none;
+}
+#blobs .blob-container object:nth-child(2) {
+  transform: scale(1.1);
+  filter: blur(50px);
+}
+#blobs .blob-bg-container {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  isolation: isolate;
+}
+#blobs .blob-bg-container object {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+#blobs .blob-bg-container .background {
+  background: #ffffff;
+  mix-blend-mode: lighten;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#blobs .blob-bg-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+#blobs .invert-blob .background {
+  filter: invert(1);
+}
+#blobs .dark .background {
+  filter: invert(1);
+  mix-blend-mode: darken;
+}
+#blobs object {
+  animation: spin-blob 60s linear infinite;
+}
+@keyframes spin-blob {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=Blobs.css.map */

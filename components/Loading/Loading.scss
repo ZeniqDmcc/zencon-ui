@@ -1,0 +1,24 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  min-width: 500px;
+  background: transparent;
+  * {
+    min-width: 400px;
+    animation: infinite 3s cubic-bezier(0.61,-0.37, 0.38, 1.41) loadingSpin;
+  }
+}
+
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

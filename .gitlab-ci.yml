@@ -1,0 +1,32 @@
+stages:
+  - build
+  - deploy
+
+cache: &node_modules_cache
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .next/
+  policy: pull-push
+
+build:
+  stage: build
+  cache:
+    <<: *node_modules_cache
+  artifacts:
+    paths:
+      - .next/
+      - out/
+  script:
+    - npm ci --no-audit --progress=false
+    - echo "Running build script"
+    - npm run build-export
+deploy:
+  stage: deploy
+  only:
+    - master
+  cache:
+    <<: *node_modules_cache
+  script:
+    - rsync -r out/ root@217.163.11.202:/var/www/launchpad-frontend/
+
