@@ -1,5 +1,4 @@
 import { nanoid } from "nanoid";
-import Image from "next/image";
 import graph2 from "../../assets/graph2.svg";
 import styles from "./nft.module.css";
 import GlobalContent from "../Molecules/Content/GlobalContent";

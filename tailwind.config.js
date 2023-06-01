@@ -58,80 +58,80 @@ module.exports = {
     function ({ addUtilities }) {
       addUtilities({
         '.bg-home': {
-          'background-image': "url('./assets/Assets_home/bg-home-new.jpg')",
+          'background-image': "url('/assets/Assets_home/bg-home-new.jpg')",
         },
         '.bg-mobile': {
-          'background-image': "url('./assets/Assets_home/mobile 480.png')",
+          'background-image': "url('/assets/Assets_home/mobile 480.png')",
           'backgroundRepeat': 'no-repeat',
           'background-position-x': "center",
         },
         '.rio023': {
-          'background-image': "url('./assets/map.svg')",
+          'background-image': "url('/assets/map.svg')",
           'background-position-x': "center",
         },
         '.past__edition__1': {
-          'background-image': "url('./assets/Assets_home/pastEdition1.png')",
+          'background-image': "url('/assets/Assets_home/pastEdition1.png')",
         },
         '.past__edition__2': {
-          'background-image': "url('./assets/Assets_home/pastEdition2.png')",
+          'background-image': "url('/assets/Assets_home/pastEdition2.png')",
         },
         '.past__edition__3': {
-          'background-image': "url('./assets/Assets_home/pastEdition3.png')",
+          'background-image': "url('/assets/Assets_home/pastEdition3.png')",
         },
         '.vanue1': {
-          'background-image': "url('./assets/Assets_home/venue1.png')",
+          'background-image': "url('/assets/Assets_home/venue1.png')",
         },
         '.vanue2': {
-          'background-image': "url('./assets/Assets_home/venue2.png')",
+          'background-image': "url('/assets/Assets_home/venue2.png')",
         },
         '.vanue3': {
-          'background-image': "url('./assets/Assets_home/venue3.png')",
+          'background-image': "url('/assets/Assets_home/venue3.png')",
         },
         '.banner-right-bg': {
-          'backgroundImage': "url('./assets/Assets_home/SideBannerImage.svg')",
+          'backgroundImage': "url('/assets/Assets_home/SideBannerImage.svg')",
           'backgroundPositionX': 'right 0',
           'backgroundPositionY': '50px',
           'backgroundRepeat': 'no-repeat'
         },
         '.rio-left-bg': {
-          'backgroundImage': "url('./assets/Assets_home/sideRio023.svg')",
+          'backgroundImage': "url('/assets/Assets_home/sideRio023.svg')",
           'backgroundPositionX': 'left',
           'backgroundRepeat': 'no-repeat'
         },
         '.bg-join': {
-          'backgroundImage': "url('./assets/Assets_home/sideWhatDoNeed.svg')",
+          'backgroundImage': "url('/assets/Assets_home/sideWhatDoNeed.svg')",
           'backgroundPositionX': 'left',
           'backgroundRepeat': 'no-repeat',
           'backgroundPositionY': '150px'
         },
         '.bg-pastEvent': {
-          'backgroundImage': "url('./assets/Assets_home/SideBannerImage.svg')",
+          'backgroundImage': "url('/assets/Assets_home/SideBannerImage.svg')",
           'backgroundPositionX': 'right',
           'backgroundRepeat': 'no-repeat',
           'backgroundPositionY': '300px'
         },
         '.bg-ecoSystem': {
-          'backgroundImage': "url('./assets/Assets_home/dash_big.svg')",
+          'backgroundImage': "url('/assets/Assets_home/dash_big.svg')",
           'backgroundPositionX': '',
           'backgroundRepeat': 'no-repeat',
         },
         '.bg-development': {
-          'backgroundImage': "url('./assets/Assets_home/sideDevelopment.svg')",
+          'backgroundImage': "url('/assets/Assets_home/sideDevelopment.svg')",
           'backgroundPositionX': 'right',
           'backgroundRepeat': 'no-repeat',
         },
         '.bg-zencon68': {
-          'backgroundImage': "url('./assets/Assets_home/sideChallenges.svg')",
+          'backgroundImage': "url('/assets/Assets_home/sideChallenges.svg')",
           'backgroundPositionX': 'right',
           'backgroundRepeat': 'no-repeat',
         },
         '.bg-aboutZeniq': {
-          'backgroundImage': "url('./assets/Assets_home/sideAboutZeniq.svg')",
+          'backgroundImage': "url('/assets/Assets_home/sideAboutZeniq.svg')",
           'backgroundPositionX': 'left',
           'backgroundRepeat': 'no-repeat',
         },
         '.bg-moreInfo': {
-          'backgroundImage': "url('./assets/Assets_home/sidebox_white.svg'), url('./assets/Assets_home/rio023vertical.svg')",
+          'backgroundImage': "url('/assets/Assets_home/sidebox_white.svg'), url('./assets/Assets_home/rio023vertical.svg')",
           'backgroundPositionX': 'right, right 100px',
           'backgroundPositionY': 'bottom 40%, bottom 15%',
           'backgroundRepeat': 'no-repeat',

@@ -1,9 +1,4 @@
-import CustomImage from "../Atoms/Image/CustomImage"
 import GlobalContent from "../Molecules/Content/GlobalContent"
-import pastEdition1 from "../../assets/Assets_home/pastEdition1.png"
-import pastEdition2 from "../../assets/Assets_home/pastEdition2.png"
-import pastEdition3 from "../../assets/Assets_home/pastEdition3.png"
-
 
 function PastEditions() {
   return (

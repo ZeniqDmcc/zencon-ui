@@ -6,7 +6,7 @@ function Input({ type, placeholder, value}) {
   )
 }
 
-Anchor.propTypes = {
+Input.propTypes = {
   type: propTypes.string.isRequired,
   placeholder: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,

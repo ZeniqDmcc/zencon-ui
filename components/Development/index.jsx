@@ -1,8 +1,5 @@
 import { nanoid } from "nanoid";
 import coins from "../../assets/Assets_home/coins.svg";
-import CoinMockup from "../../assets/CoinMockup.png";
-import coin2 from "../../assets/coin2.png";
-import CustomButton from "../Atoms/Button/CustomButton";
 import CustomImage from "../Atoms/Image/CustomImage";
 import GlobalContent from "../Molecules/Content/GlobalContent";
 import GreenButton from "../Atoms/Button/GreenButton";

@@ -1,8 +1,3 @@
-import CustomImage from "../Atoms/Image/CustomImage"
-import venue1 from "../../assets/Assets_home/venue1.png"
-import venue2 from "../../assets/Assets_home/venue2.png"
-import venue3 from "../../assets/Assets_home/venue3.png"
-
 function Venue() {
   return (
     <div className="container mx-auto px-[120px] 1440px:px-[80px] 1280px:px-[70px] 1024px:px-[30px] 767px:px-[20px] 640px:px-[80px] 480px:px-[30px] 640px:max-w-[100%]">
