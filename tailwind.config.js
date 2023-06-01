@@ -65,9 +65,10 @@ module.exports = {
           'backgroundRepeat': 'no-repeat',
           'background-position-x': "center",
         },
-        '.rio023': {
-          'background-image': "url('/assets/map.svg')",
+        '.bg-Rio023': {
+          'background-image': "url('./public/assets/Assets_home/mapwithflag.svg')",
           'background-position-x': "center",
+          'backgroundRepeat': 'no-repeat'
         },
         '.past__edition__1': {
           'background-image': "url('/assets/Assets_home/pastEdition1.png')",
@@ -89,7 +90,7 @@ module.exports = {
         },
         '.banner-right-bg': {
           'backgroundImage': "url('/assets/Assets_home/SideBannerImage.svg')",
-          'backgroundPositionX': 'right 0',
+          'backgroundPositionX': 'right',
           'backgroundPositionY': '50px',
           'backgroundRepeat': 'no-repeat'
         },
@@ -132,7 +133,7 @@ module.exports = {
         },
         '.bg-moreInfo': {
           'backgroundImage': "url('/assets/Assets_home/sidebox_white.svg'), url('./assets/Assets_home/rio023vertical.svg')",
-          'backgroundPositionX': 'right, right 100px',
+          'backgroundPositionX': 'right, right',
           'backgroundPositionY': 'bottom 40%, bottom 15%',
           'backgroundRepeat': 'no-repeat',
         },

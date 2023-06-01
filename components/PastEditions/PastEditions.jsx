@@ -2,7 +2,7 @@ import GlobalContent from "../Molecules/Content/GlobalContent"
 
 function PastEditions() {
   return (
-    <div className="container mx-auto px-[120px] 1440px:px-[80px] 1280px:px-[70px] 1024px:px-[30px] 767px:px-[20px] 640px:px-[80px] 480px:px-[30px] 640px:max-w-[100%]">
+    <div className="container mx-auto 1600px:px-[30px] 1440px:px-[80px] 1280px:px-[70px] 1024px:px-[30px] 767px:px-[20px] 640px:px-[80px] 480px:px-[30px] 640px:max-w-[100%]">
         <div className="text-center w-[40%] 1024px:w-[70%] 480px:w-[82%] mx-auto">
             <GlobalContent 
                 GlobalContentHeading="Past editions"

@@ -1,5 +1,5 @@
-import HeadingH5Green from "../../Atoms/Headings/HeadingH5Green";
 import propTypes from "prop-types";
+import HeadingH5Green from "../../Atoms/Headings/HeadingH5Green";
 import HeadingH5White from "../../Atoms/Headings/HeadingH5White";
 import Paragraph from "../../Atoms/Paragraph/Paragraph";
 

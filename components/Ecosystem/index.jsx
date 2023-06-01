@@ -6,8 +6,9 @@ import GlobalContent from "../Molecules/Content/GlobalContent";
 
 function Ecosystem(props) {
   return (
-    <div className=" px-[30px]">
-      <div className="container mx-auto bg-ecoSystem 1024px:bg-none 1024px:pt-0 pt-[22px] 640px:max-w-[100%]">
+    <div>  
+      <div className="container mx-auto 1024px:pt-0 640px:max-w-[100%]">
+        <div className="bg-ecoSystem 1024px:bg-none pt-[22px]">
         <div className="flex flex-col items-center w-full p-5 mb-16 bg-white bg-opacity-25 shadow-lg 1024px:mb-0 lg:flex-row lg:px-12 backdrop-blur-md sm:mb-0">
           <div className="flex flex-col w-2/4 gap-12 1024px:gap-1 1024px:p-4 1024px:text-center 1024px:order-2 1024px:w-full">
             <GlobalContent
@@ -24,6 +25,7 @@ function Ecosystem(props) {
           <div className="flex justify-end w-2/4 1024px:w-full 1024px:order-1">
             <CustomImage key={nanoid()} src={props.icon} alt={props.alt} />
           </div>
+        </div>
         </div>
       </div>
     </div>

@@ -134,6 +134,11 @@ body {
   color: rgba(128, 128, 128, 0.705) !important;
 }
 
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .home__outer {
   margin: 0;
   height: 100%;

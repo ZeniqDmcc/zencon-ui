@@ -50,8 +50,8 @@ export default function Launchpad() {
         <div className="flex flex-col gap-32 bg-pastEvent 1024px:bg-none 1280px:gap-20 1024px:gap-15 480px:gap-12">
           <PastEditions />
           <Finance />
+          <UnlockPotential />
         </div>
-        <UnlockPotential />
         <Ecosystem />
         <Development />
       </div>
