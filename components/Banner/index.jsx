@@ -3,8 +3,9 @@ import { useUserDataContext } from "../../context/UserDataContextProvider";
 // import Button from "../Button";
 import BannerContent from "../Molecules/Content/BannerContent";
 import ButtonGroup from "../Molecules/ButtonGroup/ButtonGroup";
+import PrizePool from "../Molecules/PrizePool/PrizePool";
 
-const BannerInner = "flex flex-col gap items-center justify-center pt-[380px] 640px:pt-[350px] gap-4 lg:gap-10 1024px:gap-5 text-center"
+const BannerInner = "flex flex-col gap-6 1024px:gap-3 items-center justify-center pt-[380px] 640px:pt-[350px] text-center"
 
 function Banner(props) {
   const { isAuthed } = useUserDataContext();
@@ -18,6 +19,7 @@ function Banner(props) {
                 headingText="Join the Global Hackathon to Shape the Future of Finance"
                 paragraphText="Are you ready to take on the challenge and compete against some of the world's most innovative developers? ZENCON Rio de Janeiro 2023 is the perfect opportunity to showcase your skills and make a name for yourself in the world of blockchain and finance. With a prize pool of 100,000 USDT, the competition is fierce, and the stakes are high."
             />
+            <PrizePool />
             <ButtonGroup 
                 button1Link="/more-information"
                 button1Text="More Details"

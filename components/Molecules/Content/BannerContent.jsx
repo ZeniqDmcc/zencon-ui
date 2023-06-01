@@ -4,7 +4,7 @@ import BannerLabel from "../../Atoms/Label/BannerLabel";
 import Paragraph from "../../Atoms/Paragraph/Paragraph";
 import PropTypes from 'prop-types';
 
-const ContentM1Style = "flex flex-col w-[70%] 1024px:w-[70%] items-center gap-8 1024px:gap-3 640px:gap-3"
+const ContentM1Style = "flex flex-col w-[70%] 1024px:w-[70%] items-center gap-6 1024px:gap-3 640px:gap-3"
 
 function BannerContent({ labelText, headingText, paragraphText }) {
   return (
