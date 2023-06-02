@@ -66,7 +66,7 @@ module.exports = {
           'background-position-x': "center",
         },
         '.bg-Rio023': {
-          'background-image': "url('./public/assets/Assets_home/mapwithflag.svg')",
+          'background-image': "url('/assets/Assets_home/mapwithflag.svg')",
           'background-position-x': "center",
           'backgroundRepeat': 'no-repeat'
         },
@@ -142,13 +142,7 @@ module.exports = {
           'display': 'block',
           'list-style-type': 'disc',
           'margin-left': '10px',
-        },
-        // '.bg-gradient': {
-        //   'backgroundImage': "url('./assets/Assets_home/bg_grad.svg')",
-        //   'backgroundPosition': 'center',
-        //   'backgroundRepeat': 'no-repeat',
-        //   'backgroundSize': '100%'
-        // },
+        }
       })
     }
   ],

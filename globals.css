@@ -6,36 +6,36 @@
 
 @font-face {
   font-family: 'hanson';
-  src: url('./assets/fonts/Hanson-Bold.ttf') format('truetype');
+  src: url('/assets/fonts/Hanson-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'heronSans';
-  src: url('./assets/fonts/Font Bureau - HeronSans Bold.otf') format('truetype');
+  src: url('/assets/fonts/Font Bureau - HeronSans Bold.otf') format('truetype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'heronSans';
-  src: url('./assets/fonts/Font Bureau - HeronSans Light.otf') format('truetype');
+  src: url('/assets/fonts/Font Bureau - HeronSans Light.otf') format('truetype');
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'heronSans';
-  src: url('./assets/fonts/Font Bureau - HeronSans Medium.otf') format('truetype');
+  src: url('/assets/fonts/Font Bureau - HeronSans Medium.otf') format('truetype');
   font-weight: medium;
 }
 
 @font-face {
   font-family: 'heronSans';
-  src: url('./assets/fonts/Font Bureau - HeronSans Regular.otf') format('truetype');
+  src: url('/assets/fonts/Font Bureau - HeronSans Regular.otf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'heronSans';
-  src: url('./assets/fonts/Font Bureau - HeronSans SemiBold.otf') format('truetype');
+  src: url('/assets/fonts/Font Bureau - HeronSans SemiBold.otf') format('truetype');
   font-weight: semibold;
 }
 
@@ -43,25 +43,25 @@
 
 @font-face {
   font-family: 'herosanscond';
-  src: url('./assets/fonts/Font Bureau - HeronSansCond Bold.otf') format('opentype');
+  src: url('/assets/fonts/Font Bureau - HeronSansCond Bold.otf') format('opentype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'herosanscond';
-  src: url('./assets/fonts/Font Bureau - HeronSansCond Medium.otf') format('opentype');
+  src: url('/assets/fonts/Font Bureau - HeronSansCond Medium.otf') format('opentype');
   font-weight: medium;
 }
 
 @font-face {
   font-family: 'herosanscond';
-  src: url('./assets/fonts/Font Bureau - HeronSansCond Regular.otf') format('opentype');
+  src: url('/assets/fonts/Font Bureau - HeronSansCond Regular.otf') format('opentype');
   font-weight: normal;
 } 
 
 @font-face {
   font-family: 'herosanscond';
-  src: url('./assets/fonts/Font Bureau - HeronSansCond SemiBold.otf') format('opentype');
+  src: url('/assets/fonts/Font Bureau - HeronSansCond SemiBold.otf') format('opentype');
   font-weight: semibold;
 }
 
