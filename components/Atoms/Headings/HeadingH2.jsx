@@ -9,7 +9,7 @@ function HeadingH2({ text }) {
 }
 
 HeadingH2.propTypes = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string,
 };
 
 export default HeadingH2;

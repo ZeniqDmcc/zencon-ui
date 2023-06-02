@@ -7,7 +7,7 @@ function CardParagraph({ text }) {
 }
 
 CardParagraph.propTypes = {
-  texy: PropTypes.string.isRequired
+  texy: PropTypes.string
 };
 
 export default CardParagraph

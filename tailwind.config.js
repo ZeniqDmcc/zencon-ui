@@ -58,7 +58,7 @@ module.exports = {
     function ({ addUtilities }) {
       addUtilities({
         '.bg-home': {
-          'background-image': "url('/assets/Assets_home/bg-home-new.jpg')",
+          'background-image': "url('/assets/Assets_home/Home_bg.png')",
         },
         '.bg-mobile': {
           'background-image': "url('/assets/Assets_home/mobile 480.png')",

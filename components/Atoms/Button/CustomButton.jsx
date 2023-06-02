@@ -7,8 +7,8 @@ function CustomButton({ href, text }) {
 }
 
 CustomButton.propTypes = {
-  href: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  href: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default CustomButton

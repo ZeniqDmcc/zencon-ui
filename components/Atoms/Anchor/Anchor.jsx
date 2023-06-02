@@ -1,12 +1,14 @@
 import PropTypes from "prop-types";
 
 const Anchor = ({ href, text }) => (
-  <a href={href}>{text}</a>
+  <a href={href}>
+    <>{text}</>
+  </a>
 );
 
 Anchor.propTypes  = {
-  href: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  href: PropTypes.string,
+  text: PropTypes.string,
 };
 
 export default Anchor;

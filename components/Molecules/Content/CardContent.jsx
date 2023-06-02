@@ -1,8 +1,7 @@
-import HeadingH3 from "../../Atoms/Headings/HeadingH3"
-import CardParagraph from "../../Atoms/Paragraph/CardParagraph";
-import PropTypes from 'prop-types'
 import Image from "next/image";
+import PropTypes from 'prop-types';
 import CardHeading from "../../Atoms/Headings/CardHeading";
+import CardParagraph from "../../Atoms/Paragraph/CardParagraph";
 
 function CardContent({ HeadingText, ParagraphText, ImageSrc, ImageAlt }) {
   return (
@@ -15,10 +14,10 @@ function CardContent({ HeadingText, ParagraphText, ImageSrc, ImageAlt }) {
 }
 
 CardContent.propTypes = {
-  ImageSrc: PropTypes.string.isRequired,
-  ImageAlt: PropTypes.string.isRequired,
-  HeadingText: PropTypes.string.isRequired,
-  ParagraphText: PropTypes.string.isRequired,
+  ImageSrc: PropTypes.object,
+  ImageAlt: PropTypes.string,
+  HeadingText: PropTypes.string,
+  ParagraphText: PropTypes.string,
 };
 
 export default CardContent
