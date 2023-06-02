@@ -4,7 +4,7 @@ import GlobalContent from '../Molecules/Content/GlobalContent'
 function Zencon68Hour() {
   return (
     <div className='container mx-auto px-[30px] 640px:max-w-[100%]'>
-        <div className='w-[80%] 1024px:mx-auto  1024px:w-[100%] 1024px:text-center'>
+        <div className='w-[80%] 1024px:mx-auto 1024px:w-[90%] 1024px:text-center'>
             <div className='w-[50%] 1600px:w-[60%] 1280px:w-[70%] 640px:w-[90%] 1024px:mx-auto'>
                 <HeadingH2 text="What is the 68-hour ZENCON challenge?" />
             </div>

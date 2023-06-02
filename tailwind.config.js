@@ -68,7 +68,8 @@ module.exports = {
         '.bg-Rio023': {
           'background-image': "url('/assets/Assets_home/mapwithflag.svg')",
           'background-position-x': "center",
-          'backgroundRepeat': 'no-repeat'
+          // 'background-position-y': "70px",
+          'backgroundRepeat': 'no-repeat',
         },
         '.past__edition__1': {
           'background-image': "url('/assets/Assets_home/pastEdition1.png')",
@@ -136,7 +137,14 @@ module.exports = {
           'backgroundPositionX': 'right, right',
           'backgroundPositionY': 'bottom 40%, bottom 15%',
           'backgroundRepeat': 'no-repeat',
-        },
+        },        
+        // '.bg-grad': {
+        //   'backgroundImage': "url('/assets/Assets_home/bg_grad.svg')",
+        //   'backgroundPositionX': 'center',
+        //   'backgroundPositionY': 'top',
+        //   'backgroundRepeat': 'no-repeat',
+        //   'backgroundSize': '30%',
+        // },
         '.div-with-dots::before' : {
           'content': 'aaaaaaaaaaaaaaaaaa',
           'display': 'block',

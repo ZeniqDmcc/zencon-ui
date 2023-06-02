@@ -3,7 +3,7 @@ import GlobalContent from "../Molecules/Content/GlobalContent"
 function WhatIsZencon() {
   return (
     <div className="container mx-auto">
-        <div className="max-w-[60%] text-center px-10 mx-auto laptop:max-w-[80%] 800px:max-w-[100%] 480px:max-w-[100%]">
+        <div className="2xl:max-w-[60%] xl:max-w-[70%] lg:max-w-[90%] text-center lg:px-10 mx-auto">
             <GlobalContent 
                 GlobalContentHeading="what is zencon?"
                 Paragraph1="ZENCON is an annual coding event (hackathon), where entrepreneurs, coders, computer

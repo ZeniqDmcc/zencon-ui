@@ -22,7 +22,7 @@ function PrizePool() {
           </div>
           <div>
             <h2
-              className="font-bold text-[85px] font-Hanson text-[#ffdf00]"
+              className="font-bold lg:text-[85px] text-[36px] font-Hanson text-[#ffdf00]"
             >
               {item.TotalPrice}
             </h2>

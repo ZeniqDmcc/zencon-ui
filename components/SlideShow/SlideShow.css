@@ -42,7 +42,7 @@
   transition: all 100ms;
 }
 .button-prev .left-arrow {
-  font-size: 70px;
+  font-size: 45px !important;
   color: #ffffff;
 }
 
@@ -70,7 +70,7 @@
   transition: all 100ms;
 }
 .button-next .right-arrow {
-  font-size: 70px;
+  font-size: 45px !important;
   color: #ffffff;
 }
 
