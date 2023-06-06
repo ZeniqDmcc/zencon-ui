@@ -80,13 +80,13 @@ module.exports = {
         '.past__edition__3': {
           'background-image': "url('/assets/Assets_home/pastEdition3.png')",
         },
-        '.vanue1': {
+        '.venue1': {
           'background-image': "url('/assets/Assets_home/venue1.png')",
         },
-        '.vanue2': {
+        '.venue2': {
           'background-image': "url('/assets/Assets_home/venue2.png')",
         },
-        '.vanue3': {
+        '.venue3': {
           'background-image': "url('/assets/Assets_home/venue3.png')",
         },
         '.banner-right-bg': {
@@ -133,17 +133,23 @@ module.exports = {
           'backgroundRepeat': 'no-repeat',
         },
         '.bg-moreInfo': {
-          'backgroundImage': "url('/assets/Assets_home/sidebox_white.svg'), url('./assets/Assets_home/rio023vertical.svg')",
-          'backgroundPositionX': 'right, right',
-          'backgroundPositionY': 'bottom 40%, bottom 15%',
+          'backgroundImage': "url('/assets/Assets_home/sidebox_white.svg')",
+          'backgroundPositionX': 'right',
+          'backgroundPositionY': 'bottom',
+          'backgroundRepeat': 'no-repeat',
+        },    
+        '.bg-moreInfo-inner': {
+          'backgroundImage': "url('./assets/Assets_home/rio023vertical.svg')",
+          'backgroundPositionX': 'calc(100% - 90px)',
+          'backgroundPositionY': 'bottom',
           'backgroundRepeat': 'no-repeat',
         },        
         // '.bg-grad': {
         //   'backgroundImage': "url('/assets/Assets_home/bg_grad.svg')",
-        //   'backgroundPositionX': 'center',
+        //   'backgroundPositionX': 'right',
         //   'backgroundPositionY': 'top',
         //   'backgroundRepeat': 'no-repeat',
-        //   'backgroundSize': '30%',
+        //   'backgroundSize': '70%',
         // },
         '.div-with-dots::before' : {
           'content': 'aaaaaaaaaaaaaaaaaa',

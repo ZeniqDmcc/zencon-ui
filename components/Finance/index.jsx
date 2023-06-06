@@ -16,7 +16,7 @@ function Finance(props) {
                         key={nanoid()}
                     />
                 </div>
-                <div className="flex justify-end w-1/2 1024px:justify-center 1024px:w-full 1024px:order-1 480px:hidden bg-gradient">
+                <div className="flex justify-end w-1/2 1024px:justify-center 1024px:w-full 1024px:order-1 480px:hidden bg-grad">
                     <CustomImage key={nanoid()}
                         src={props.src}
                         alt={props.alt}

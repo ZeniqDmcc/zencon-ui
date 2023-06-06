@@ -4,7 +4,7 @@ import styles from "./logo.module.css";
 import Link from "next/link";
 
 const Logo= ()=>{
-    return <div className={`h-100 ${styles.brand__icon}`}>
+    return <div className={`h-100 1024px:text-center ${styles.brand__icon}`}>
       <Link href="#">
         <><Image className="h-24" src={zenconLogo} alt="Logo"/></>
       </Link>

@@ -6,7 +6,9 @@ function Challenges() {
   return (
     <div className="container mx-auto px-[30px] 640px:max-w-[100%]">
         <div className="w-[80%] flex flex-col gap-7 1024px:w-[90%]  1024px:mx-auto 1024px:text-center">
-            <HeadingH2 text="What are the ZENCON challenges?" />
+            <div className="2xl:w-[45%] xl:w-[55%] lg:w-[70%]">
+              <HeadingH2 text="What are the ZENCON challenges?" />
+            </div>
             <div className="flex flex-col gap-7">
               {ChallengesData && ChallengesData.map((item) => {
                   return (

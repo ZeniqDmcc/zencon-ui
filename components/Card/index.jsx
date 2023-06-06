@@ -6,7 +6,7 @@ import CardContent from "../Molecules/Content/CardContent";
 
 const Card = () => {
   return (
-      <div className="container 640px:max-w-[100%] flex mx-auto 1600px:px-[30px]">
+      <div className="max-w-[1021px] 640px:max-w-[100%] flex mx-auto 1600px:px-[30px]">
         <div className="flex flex-col gap-8 1280px:gap-5 lg:flex-1 lg:flex-row 1024px:text-center bg-gradient">
           {cardData &&
             cardData.map((item) => {
