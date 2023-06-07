@@ -7,7 +7,7 @@ import { zencon_event_api_url } from "../utils/Constants/BackendURLs";
 import UI_PATHS from "./../utils/Constants/uiPaths";
 
 export default function Register() {
-    const {data, error, loading,token } = useFetchWithToken(`${zencon_event_api_url}/${UI_PATHS.PARTICIPANT_STATUS}`);
+    const {data, loading,token } = useFetchWithToken(`${zencon_event_api_url}/${UI_PATHS.PARTICIPANT_STATUS}`);
     if(loading) return <Loading></Loading>;
     return (
         <>

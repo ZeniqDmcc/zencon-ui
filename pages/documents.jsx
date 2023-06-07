@@ -11,6 +11,8 @@ import {
 import CallToAction from "../components/Buttons/CallToAction";
 import {GradientBorder} from "../components/GradientBorder/GradientBorder";
 import Navbar from "../components/Navbar/Navbar";
+import Card from "../components/Card";
+import CardContent from "../components/Molecules/Content/CardContent";
 
 const items = [
   {
@@ -49,53 +51,32 @@ export default function docs() {
         title="ZENCON Launchpad | Documents"
         description="List of the complete documentation for ZENIQ and ZENCON launchpad to developers, Investors and community."
       />
-      <PageWrapper>
+      <div>
         <section className="pb-20 text-white bg-gray-900 bg-no-repeat bg-cover grow py-14">
           <Container>
             <h1 className="mb-8 text-3xl font-extrabold text-center mt-14 md:text-5xl lg:text-7xl font-primary">
               Documentation
             </h1>
-            <div className="grid content-center grid-cols-1 py-8 xl:grid-cols-3 md:grid-cols-2 justify-items-center gap-14">
-              {items.map((item, index) => (
-                  <GradientBorder key={index} size={7}>
-                    <div
-                        key={item.id}
-                        className="flex flex-col justify-between w-full h-full px-4 pt-6 text-left bg-white rounded-lg doc-card-shadow"
-                    >
+            {/* <div className="flex">
+                {items.map((item, index) => {
+                  return (
+                    <div key={index}>
+                      <Image width={40} height={40} src={item.imgPath} alt="" />
+                      <CardContent
+                        ImageAlt="icon"
+                        HeadingText={item.title}
+                        ParagraphText={item.description}
+                      />
                       <div>
-                        <div className="flex items-center gap-4 pb-4 mb-8 border-b-2 border-b-gray-200">
-                          <Image
-                              src={item.imgPath}
-                              alt="icon"
-                              width={40}
-                              height={40}
-                          />
-                          <a
-                              className="font-bold font-primary sm:text-[20px] text-[24px] text-black capitalize cursor-pointer"
-                              href={item.href}
-                          >
-                            {item.title}
-                          </a>
-                        </div>
-                        <p className="font-normal font-secondary text-[#667085]">
-                          {item.description}
-                        </p>
+                        <a href={item.href}>view document</a>
                       </div>
-                      <p className="mt-12 mb-8 font-normal text-[#667085]">
-                        <CallToAction
-                            text="View Document"
-                            link={item.href}
-                            classes="w-full"
-                            newTab={item.newTab}
-                        />
-                      </p>
                     </div>
-                  </GradientBorder>
-              ))}
-            </div>
+                  )
+                })}
+            </div> */}
           </Container>
         </section>
-      </PageWrapper>
+      </div>
     </>
   );
 }

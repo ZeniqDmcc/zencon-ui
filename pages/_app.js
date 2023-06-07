@@ -14,7 +14,6 @@ import '../components/PageWrapper/PageWrapper.scss';
 import '../components/Loading/Loading.scss';
 import '../components/Navbar/Navbar.scss';
 import '../assets/svg/svg.scss'
-import Script from "next/script";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import UserDataContextProvider from "../context/UserDataContextProvider";
